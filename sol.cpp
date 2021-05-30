@@ -12,6 +12,7 @@ int main() {
 		cin >> n;
 		vector<int> a(n);
 		int mn = INT_MAX;
+		// view the image in this repository for better understanding
 		for (int i = 0; i < n; i++) {
 			cin >> a[i];
 			// find the smallest number, because this number will not be deleted
